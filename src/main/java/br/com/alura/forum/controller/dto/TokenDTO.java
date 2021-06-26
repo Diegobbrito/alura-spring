@@ -1,19 +1,21 @@
 package br.com.alura.forum.controller.dto;
 
-public class TokenDTO {
-    private String token;
-    private String tipo;
+public class TokenDto {
 
-    public TokenDTO(String token, String tipo) {
-        this.token = token;
-        this.tipo = tipo;
-    }
+	private String token;
+	private String tipo;
 
-    public String getToken() {
-        return token;
-    }
+	public TokenDto(String token, String tipo) {
+		this.token = token;
+		this.tipo = tipo;
+	}
 
-    public String getTipo() {
-        return tipo;
-    }
+	public String getToken() {
+		return token;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
 }
